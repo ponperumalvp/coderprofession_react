@@ -1,0 +1,27 @@
+.navbar-simple div {
+  height: 4px !important;
+  background: blue;
+  /* margin: 7px 0px 7px 0px; */
+  border-radius: 25px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  margin: 10px;
+}
+.one {
+  width: 30px;
+}
+.two {
+  width: 25px;
+}
+
+.three {
+  width: 30px;
+}
+
+.navbar-simple:hover div {
+  width: 60px;
+  cursor: pointer;
+}
+.navbar-simple {
+  padding: 0px 20px 0px 60px;
+}

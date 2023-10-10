@@ -1,0 +1,30 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  margin: 0 20px 0 20px;
+  width: 100%;
+}
+.comments {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.comment1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 60px;
+}
+.comment-p1 {
+  color: var(--primary);
+}
+.comment-p3 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  color: var(--primary);
+}
