@@ -1,9 +1,11 @@
 .header {
+  /* width: 100vw; */
   height: 10vh;
   display: flex;
   background-color: var(--secondary);
   border: none;
-  box-shadow: 1px 1px 1px 1px rgb(142, 137, 137);
+  justify-content: space-between;
+  box-shadow: 1px 2px 3px rgb(142, 137, 137);
   align-items: center;
   color: #00a8e8;
   position: sticky;
@@ -21,15 +23,16 @@
 
 .header-div {
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   margin-left: 35rem;
+  margin-right: 40px;
 }
 
 .button {
   border: none;
   font-size: 17px;
   background-color: var(--secondary);
-  margin-right: 70px;
+  /* margin-right: 70px; */
   margin-left: 8px;
   color: var(--primary);
 }
@@ -45,7 +48,7 @@
 }
 @media (max-width: 480px) {
   .header {
-    width: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;

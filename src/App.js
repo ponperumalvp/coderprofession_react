@@ -1,9 +1,9 @@
 import "./App.css";
-import Aboutus from "./Pages.js/Aboutus";
-import ContactUs from "./Pages.js/ContactUs";
-import Home from "./Pages.js/Home";
-import Testimonials from "./Pages.js/Testimonials";
-import Updates from "./Pages.js/Updates";
+import Aboutus from "./Pages/Aboutus";
+import ContactUs from "./Pages/ContactUs";
+import Home from "./Pages/Home";
+import Testimonials from "./Pages/Testimonials";
+import Updates from "./Pages/Updates";
 import Header from "./components/Header";
 import { Routes, Route } from "react-router-dom";
 
