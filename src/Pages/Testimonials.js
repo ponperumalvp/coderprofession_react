@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Testimonials.css";
 import Buttons from "../components/Buttons";
+import { Link } from "react-router-dom";
 
 const Testimonials = () => {
   return (
@@ -49,7 +50,11 @@ const Testimonials = () => {
       </div>
       <div className="buttons">
         <Buttons>WRITE A REVIEW </Buttons>
-        <Buttons> READ MORE</Buttons>
+        <li>
+          <Link to="/review">
+            <Buttons> READ MORE</Buttons>
+          </Link>
+        </li>
       </div>
     </div>
   );
