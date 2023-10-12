@@ -1,0 +1,8 @@
+.head {
+  height: 10vh;
+  width: 100%;
+  box-shadow: 3px 3px 3px rgb(193, 187, 187);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

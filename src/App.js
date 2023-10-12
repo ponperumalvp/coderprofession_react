@@ -1,11 +1,11 @@
 import "./App.css";
+import Header from "./Header/Header";
 import Aboutus from "./Pages/Aboutus";
 import ContactUs from "./Pages/ContactUs";
 import Home from "./Pages/Home";
 import Testimonials from "./Pages/Testimonials";
 import Updates from "./Pages/Updates";
 import Review from "./Review/Review";
-import Header from "./components/Header";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 

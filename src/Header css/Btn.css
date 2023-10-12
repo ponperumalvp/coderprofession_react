@@ -1,0 +1,18 @@
+.header-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4em;
+}
+.button {
+  border: none;
+  font-size: 17px;
+  margin-right: 2em;
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+.icons {
+  margin-right: 0.5em;
+  font-size: 1em;
+  color: var(--primary);
+}
