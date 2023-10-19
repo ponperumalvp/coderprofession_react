@@ -1,4 +1,4 @@
-import { takeEvery, call, put } from "redux-saga/effects";
+import { call, put } from "redux-saga/effects";
 import axios from "axios";
 import { setErrMsg, getReview } from "./reviewSlice";
 
@@ -17,8 +17,4 @@ export function* getReviewSaga() {
   } catch (err) {
     yield put(setErrMsg({ errMsg: err.message }));
   }
-}
-
-export default function* rootSaga() {
-  yield takeEvery("GET-REVIEW-SAGA", getReviewSaga);
 }
