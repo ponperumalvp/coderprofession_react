@@ -7,6 +7,8 @@ import Aboutus from "./Aboutus";
 import ContactUs from "./ContactUs";
 import Footer from "../components/Footer";
 import "../styles/Home.css";
+import Buttons from "../components/Buttons";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -16,6 +18,9 @@ const Home = () => {
       <Testimonials />
       <Aboutus />
       <ContactUs />
+      <Link to="application">
+        <Buttons>Application</Buttons>
+      </Link>
       <Footer />
     </div>
   );

@@ -1,4 +1,5 @@
 import "./App.css";
+import Application from "./Application/Application";
 import Header from "./Header/Header";
 import Aboutus from "./Pages/Aboutus";
 import ContactUs from "./Pages/ContactUs";
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/review" element={<Review />} />
+          <Route path="/application" element={<Application />} />
         </Routes>
       </BrowserRouter>
     </div>

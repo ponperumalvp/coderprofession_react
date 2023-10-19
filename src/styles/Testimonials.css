@@ -6,8 +6,8 @@
   font-size: 17px;
   /* margin-left: 20px;
   margin-right: 20px; */
-  margin: 0 20px 0 20px;
-  width: 100%;
+  /* margin: 0 20px 0 20px; */
+  /* width: 100%; */
 }
 .comments {
   display: grid;
@@ -27,4 +27,7 @@
   justify-content: flex-end;
   margin-top: 20px;
   color: var(--primary);
+}
+.buttons {
+  display: flex;
 }
